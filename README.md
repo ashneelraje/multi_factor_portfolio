@@ -59,52 +59,52 @@ before portfolio aggregation.
 ---
 
 ## Project Structure
-multi_factor_portfolio/
-├── analytics/
-│ └── alpha_decomposition.py
-│ └── factor_attribution.py
-│ └── performance_metrics.py
-├── data/
-│ ├── download_prices.py
-│ ├── get_sp500_tickers.py
-│ ├── market_cap.py
-│ ├── quality_data.py
-│ ├── processed/
-│ │ ├── alpha_decomposition.csv
-│ │ ├── benchmark_cumulative_returns.csv
-│ │ ├── benchmark_returns.csv
-│ │ ├── composite_scores.csv
-│ │ ├── cumulative_returns.csv
-│ │ ├── eligible_universe.csv
-│ │ ├── factor_attribution.csv
-│ │ ├── factor_correlation.csv
-│ │ ├── momentum_scores.csv
-│ │ ├── monthly_prices.csv
-│ │ ├── performance_comparison.csv
-│ │ ├── portfolio_returns.csv
-│ │ ├── portfolio_weights.csv
-│ │ ├── quality_scores.csv
-│ │ ├── size_scores.csv
-│ │ └── value_scores.csv
-│ └── universe/
-│ │ └── sp500_constituents.csv
-├── factors/
-│ ├── composite_time_series.py
-│ ├── momentum.py
-│ ├── quality.py
-│ ├── size.py
-│ └── value.py
-├── performance/
-│ ├── benchmark.py
-│ ├── metrics.py
-│ └── plots.py
-├── portfolio/
-│ ├── benchmark.py
-│ └── portfolio_construction.py
-├── main.py
-├── visualization.py
-├── README.md
-└── MODEL_ASSUMPTIONS.md
+multi_factor_portfolio/    
+├── analytics/      
+│ └── alpha_decomposition.py       
+│ └── factor_attribution.py          
+│ └── performance_metrics.py         
+├── data/         
+│ ├── download_prices.py      
+│ ├── get_sp500_tickers.py         
+│ ├── market_cap.py    
+│ ├── quality_data.py    
+│ ├── processed/     
+│ │ ├── alpha_decomposition.csv         
+│ │ ├── benchmark_cumulative_returns.csv       
+│ │ ├── benchmark_returns.csv        
+│ │ ├── composite_scores.csv         
+│ │ ├── cumulative_returns.csv                
+│ │ ├── eligible_universe.csv         
+│ │ ├── factor_attribution.csv          
+│ │ ├── factor_correlation.csv         
+│ │ ├── momentum_scores.csv      
+│ │ ├── monthly_prices.csv       
+│ │ ├── performance_comparison.csv           
+│ │ ├── portfolio_returns.csv          
+│ │ ├── portfolio_weights.csv         
+│ │ ├── quality_scores.csv          
+│ │ ├── size_scores.csv         
+│ │ └── value_scores.csv         
+│ └── universe/           
+│ │ └── sp500_constituents.csv               
+├── factors/       
+│ ├── composite_time_series.py       
+│ ├── momentum.py        
+│ ├── quality.py        
+│ ├── size.py   
+│ └── value.py       
+├── performance/   
+│ ├── benchmark.py     
+│ ├── metrics.py      
+│ └── plots.py    
+├── portfolio/      
+│ ├── benchmark.py        
+│ └── portfolio_construction.py     
+├── main.py      
+├── visualization.py     
+├── README.md      
+└── MODEL_ASSUMPTIONS.md          
 
 ---
 
